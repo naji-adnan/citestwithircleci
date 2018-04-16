@@ -16,8 +16,3 @@ jobs:
           - run:
                     name: Deploy to AWS
                     command: npm run deploy
-workflows:
-  version: 2
-  test:
-    jobs:
-      - test
