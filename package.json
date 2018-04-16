@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "serverless deploy"
     "serve": "serverless offline start",
     "test": "jest"
   },
